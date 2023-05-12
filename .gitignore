@@ -1,0 +1,12 @@
+# Nuxt gitignore
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+# MacOS file
+.DS_Store
