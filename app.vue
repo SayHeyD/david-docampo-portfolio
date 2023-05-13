@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <Layout />
 </template>
+
+<script setup>
+import Layout from './components/Layout.vue'
+</script>
