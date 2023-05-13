@@ -1,0 +1,10 @@
+# Nuxt gitignore
+*.log*
+node_modules
+
+# MacOS file
+.DS_Store
+
+# Git files
+.git/
+.gitignore
