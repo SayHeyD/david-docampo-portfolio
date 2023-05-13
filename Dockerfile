@@ -6,6 +6,7 @@ COPY . /opt/david-docampo-portfolio
 
 RUN yarn install && yarn generate
 
+# Runtime container
 FROM nginx:1.24.0-alpine3.17
 
 COPY --from=build /opt/david-docampo-portfolio/.output/public /usr/share/nginx/html
