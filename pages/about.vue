@@ -1,9 +1,12 @@
 <template>
-  <Layout>
-    <p>TEST</p>
-  </Layout>
+  <p>About</p>
 </template>
 
 <script setup>
-import Layout from '@/components/layout/Layout.vue'
+useSeoMeta({
+  title: 'David Docampo - About',
+  ogTitle: 'David Docampo - About',
+  description: 'The portfolio website of David Docampo. About me, my hobbies and other stuff.',
+  ogDescription: 'The portfolio website of David Docampo. About me, my hobbies and other stuff.',
+})
 </script>
