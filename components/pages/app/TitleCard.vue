@@ -12,7 +12,7 @@
 
     <div class="absolute z-40 flex flex-col justify-center items-center w-1/2 top-0 bottom-0 left-0">
 
-      <TitleText class="mb-8" />
+      <TitleText class="mb-16" />
 
       <TitleNav class="mx-auto" />
 
