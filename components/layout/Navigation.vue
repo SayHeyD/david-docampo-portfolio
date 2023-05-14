@@ -14,5 +14,5 @@
 import SlantedArrow from '@/components/icons/SlantedArrow.vue'
 import Compass from '@/components/icons/Compass.vue'
 
-const toolTipShown = useState('toolTipShown', true)
+const toolTipShown = useState('toolTipShown', () => true)
 </script>
