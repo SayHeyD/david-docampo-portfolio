@@ -1,5 +1,5 @@
 <template>
-  <p>Peojects</p>
+  <p>Projects</p>
 </template>
 
 <script setup>
