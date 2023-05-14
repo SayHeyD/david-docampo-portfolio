@@ -1,8 +1,13 @@
 <template>
-  <p>Projects</p>
+  <div>
+    <Navigation />
+    <p>Projects</p>
+  </div>
 </template>
 
 <script setup>
+import Navigation from '@/components/layout/Navigation.vue'
+
 useSeoMeta({
   title: 'David Docampo - Projects',
   ogTitle: 'David Docampo - Projects',
