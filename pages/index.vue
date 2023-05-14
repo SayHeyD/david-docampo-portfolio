@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import TitleCard from '@/components/pages/app/TitleCard.vue'
+import TitleCard from '@/components/pages/index/TitleCard.vue'
 
 useSeoMeta({
   title: 'David Docampo - Portfolio',

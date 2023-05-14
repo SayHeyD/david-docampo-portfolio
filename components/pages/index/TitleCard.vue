@@ -23,7 +23,7 @@
 <script setup>
 import BlurryGradiant from '~/components/graph/BlurryGradiant.vue'
 import TitleCardGraphic from '~/components/graph/TitleCardGraphic.vue'
-import TitleText from '@/components/pages/app/TitleText.vue'
-import TitleNav from '@/components/pages/app/TitleNav.vue'
+import TitleText from '@/components/pages/index/TitleText.vue'
+import TitleNav from '@/components/pages/index/TitleNav.vue'
 
 </script>
