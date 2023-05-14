@@ -1,6 +1,7 @@
 {
   "name": "david-docampo-portfolio",
   "private": true,
+  "version": "1.0.0-alpha",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
