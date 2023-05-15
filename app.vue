@@ -1,4 +1,8 @@
 <template>
+  <div class="fixed -z-20 w-screen h-screen overflow-y-hidden">
+    <BlurryGradiant />
+  </div>
+  
   <Layout>
     <NuxtPage />
   </Layout>
@@ -6,6 +10,7 @@
 
 <script setup>
 import Layout from '@/components/layout/Layout.vue'
+import BlurryGradiant from '~/components/graph/BlurryGradiant.vue'
 </script>
 
 <style>
